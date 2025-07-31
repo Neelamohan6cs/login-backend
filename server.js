@@ -14,7 +14,7 @@ connectDB();
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'http://localhost:3000',"https://todoapp-blond-chi.vercel.app/",
   methods: ['GET', 'POST', 'DELETE'],
   credentials: true
 }));
